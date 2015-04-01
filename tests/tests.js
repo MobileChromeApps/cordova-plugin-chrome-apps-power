@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-registerManualTests('chrome.power', function(rootEl, addButton) {
+exports.defineManualTests = function(rootEl, addButton) {
   addButton('Request "System" Keep-Awake', function() {
     chrome.power.requestKeepAwake('system');
     logger('Requested "System" keep-awake.');
@@ -17,5 +17,4 @@ registerManualTests('chrome.power', function(rootEl, addButton) {
     chrome.power.releaseKeepAwake();
     logger('Released keep-awake.');
   });
-});
-
+};
