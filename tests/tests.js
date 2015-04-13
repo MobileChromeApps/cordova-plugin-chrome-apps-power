@@ -5,16 +5,16 @@
 exports.defineManualTests = function(rootEl, addButton) {
   addButton('Request "System" Keep-Awake', function() {
     chrome.power.requestKeepAwake('system');
-    logger('Requested "System" keep-awake.');
+    console.log('Requested "System" keep-awake.');
   });
 
   addButton('Request "Display" Keep-Awake', function() {
     chrome.power.requestKeepAwake('display');
-    logger('Requested "Display" keep-awake.');
+    console.log('Requested "Display" keep-awake.');
   });
 
   addButton('Release Keep-Awake', function() {
     chrome.power.releaseKeepAwake();
-    logger('Released keep-awake.');
+    console.log('Released keep-awake.');
   });
 };
