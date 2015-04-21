@@ -6,8 +6,5 @@
 #import <Foundation/Foundation.h>
 
 @interface ChromePower : CDVPlugin
-
-- (CDVPlugin*)initWithWebView:(UIWebView*)theWebView;
-
 @end
 

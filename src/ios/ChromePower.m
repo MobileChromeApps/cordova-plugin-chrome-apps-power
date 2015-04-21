@@ -12,12 +12,6 @@
 
 @implementation ChromePower
 
-- (CDVPlugin*)initWithWebView:(UIWebView*)theWebView
-{
-    self = [super initWithWebView:theWebView];
-    return self;
-}
-
 - (void)requestKeepAwake:(CDVInvokedUrlCommand*)command
 {
     // TODO(maxw): Use the level to differentiate between display-off and display-on.
