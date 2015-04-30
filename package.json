@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-chrome-apps-power",
-  "version": "1.0.4",
+  "version": "1.0.5-dev",
   "description": "This plugin provides the ability to override the device's default power management.",
   "cordova": {
     "id": "cordova-plugin-chrome-apps-power",
