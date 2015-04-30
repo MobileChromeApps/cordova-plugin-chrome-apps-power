@@ -15,6 +15,10 @@ The API reference is [here](http://developer.chrome.com/apps/power.html).
 * There is no distinction between `system` and `display` levels; both act as though `display` was specified.
 
 # Release Notes
+
+## 1.0.4 (April 30, 2015)
+- Renamed plugin to pubilsh to NPM
+
 ## 1.0.3 (October 21, 2014)
 - Documentation updates.
 
